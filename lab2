@@ -1,0 +1,12 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+
+int main()
+{
+	double volume, r;
+	cout << "input radius ";
+	cin >> r;
+	volume = 3, 14 * r * r;
+	cout << "The volume of the circle is equal to " << volume << endl;
+}
